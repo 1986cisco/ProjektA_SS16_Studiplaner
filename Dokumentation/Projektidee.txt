@@ -1,0 +1,9 @@
+# ProjektA_SS16_Studiplaner
+in Zusammenarbeit mit Florian Wiekhorst
+
+07.04.2016
+Wir möchten einen Planer für Studenten erstellen. 
+Der User kann sich einloggen und seine Vorlesungen eintragen.
+Dazu kommen Daten der Arbeiten und regelmäßige persönliche Termine.
+Unsere Software ermöglicht dann eine gute Übersicht.
+Dem User stehen eine Reihe von Anpassungsmöglichkeiten zur Verfügung.
