@@ -12,7 +12,7 @@ Dem User stehen eine Reihe von Anpassungsmöglichkeiten zur Verfügung.
 
 === Feedback Alpers, 2016-04-19 ===
 
-Wie in der Aufgabenbeschreibung (Kap. 5) beschrieben und sowohl in der Veranstaltung als auch in E-Mails an alle Teilnehmer klar dargelegt sollen Sie die erste Aufgabe individuell bearbeiten, also NICHT als Team.
+Wie in der Aufgabenbeschreibung (Kap. 5) beschrieben und sowohl in der Veranstaltung als auch in E-Mails an alle Teilnehmer klar geschrieben sollen Sie die erste Aufgabe individuell bearbeiten, also NICHT als Team.
 
 Dazu kommt, dass Ihr Vorschlag leider keine gute Projektidee im Sinne einer interaktiven Anwendung beschreibt, weil es sich um eine Datenbankanwendung handelt. Das bedeutet, dass es bei der Umsetzung Ihres Projekts vorrangig darum geht, das NutzerInnen Texte (und ggf. Dateien) hochladen können und sich diese anzeigen lassen können. 
 
@@ -29,6 +29,23 @@ Im Gegensatz zum oben beschriebenen EVA-Prinzip, das letztlich der Kern sogenann
 - R wie Reaktion: Jetzt kommen wir zur eigentlichen Interaktion, also dem gegenseitigen Reagieren auf Ein- und Ausgaben: Durch die Ausgabe des Computers hat sich etwas geändert, z.B. die Position von Figuren auf dem Spielbrett. Also ist die nächste Eingabe des Spielers immer abhängig von der Ausgabe des Computers. Und nachdem der Spieler reagiert hat, reagiert der Computer, dann wieder der Spieler, dann wieder der Computer usw. bis entweder eine Bedingung erreicht ist, die z.B. als Gewinn/Verlust für eine der beiden Seiten bezeichnet wird und durch die die Interaktion beendet wird, oder es gibt eine endlose Abfolge von Reaktionen. Wenn Sie später eine Veranstaltung zu Betriebssystemen besuchen, werden Sie so etwas auch als sogenannten Dialogbetrieb kennen lernen: Eine mehr oder weniger endlose Abfolge von Reaktionen auf Ein- bzw. Ausgaben, die jeweils von einander abhängig sind.
 
 Bitte erstellen Sie deshalb eine Projektbeschreibung, bei der Sie das folgende Spiel als Vorlage nutzen: Era of Innovations http://www.brettspiele-report.de/era-of-inventions/
+=======
+### Bin mal so frei dir das Feedback weiterzuleiten ###
+### Da unsere Projektideen ja identisch sind - LG Florian ###
+
+=====
+=
+= Offengestanden ist mir vollkommen unklar, warum Sie beide die folgende Zeile ignorieren.
+=
+
+Besonders wichtig: Bearbeiten Sie diese Aufgabe alleine. 
+
+
+= Um es unmissverständlich auszudrücken: Für Sie beide gilt, dass Sie nicht gemeinsam weiterarbeiten dürfen.
+=
+= Machen Sie sich bitte auch klar, was es für Ihr Studium bedeutet, dass es sich beim Projekt um eine Prüfungsleistung handelt, und dass einer von Ihnen beiden eine Kopie der Arbeit abgibt, die der andere als eigene Leistung abgibt.
+=====
+
 
 === Zweiter Aufgabenblock (identisch für alle Studierenden) ===
 
