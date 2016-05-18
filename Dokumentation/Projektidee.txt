@@ -1,15 +1,21 @@
-﻿=== Projektidee UPDATE, 2016-04-21 ===
+﻿======================================
+=== Projektidee UPDATE, 2016-04-21 ===
+======================================
 
 neue Projektidee - „Era of Inventions“
 http://www.brettspiele-report.de/era-of-inventions/
 
 Mein Projekt widmet sich der Umsetzung des Brettspiels „Era of Inventions“.
-„Era of Inventions“ ist ein Spiel für 3 bis 5 Personen, bei der die Spieler in die Rolle von Erfindern schlüpfen. Den Spielern stehen mehrere Aktionsmöglichkeiten zur Auswahl. 
+„Era of Inventions“ ist ein Spiel für 3 bis 5 Personen, bei der die Spieler in die Rolle von Erfindern schlüpfen. 
+Den Spielern stehen mehrere Aktionsmöglichkeiten zur Auswahl. 
 Sie müssen neue Ideen austüfteln und verschiedene Ressourcen erwirtschaften, um Erfindungen produzieren und auf einer Einflusspunkteskala ganz nach oben zu klettern. 
-Das Spiel endet nach einer von der Spielerzahl abhängigen Rundenanzahl. Gewinner ist der Spieler mit den meisten Einflusspunkten. Die Spielzeit wird auf 90 Minuten geschätzt.
+Das Spiel endet nach einer von der Spielerzahl abhängigen Rundenanzahl. 
+Gewinner ist der Spieler mit den meisten Einflusspunkten. 
+Die Spielzeit wird auf 90 Minuten geschätzt.
 
-
+=========================================
 === Projektidee 1986cisco, 2016-04-07 ===
+=========================================
 
 # ProjektA_SS16_Studiplaner
 in Zusammenarbeit mit Florian Wiekhorst
@@ -21,7 +27,9 @@ Dazu kommen Daten der Arbeiten und regelmäßige persönliche Termine.
 Unsere Software ermöglicht dann eine gute Übersicht.
 Dem User stehen eine Reihe von Anpassungsmöglichkeiten zur Verfügung.
 
+===================================
 === Feedback Alpers, 2016-04-19 ===
+===================================
 
 Wie in der Aufgabenbeschreibung (Kap. 5) beschrieben und sowohl in der Veranstaltung als auch in E-Mails an alle Teilnehmer klar geschrieben sollen Sie die erste Aufgabe individuell bearbeiten, also NICHT als Team.
 
@@ -51,85 +59,38 @@ Bitte erstellen Sie deshalb eine Projektbeschreibung, bei der Sie das folgende S
 
 Besonders wichtig: Bearbeiten Sie diese Aufgabe alleine. 
 
-
 = Um es unmissverständlich auszudrücken: Für Sie beide gilt, dass Sie nicht gemeinsam weiterarbeiten dürfen.
 =
 = Machen Sie sich bitte auch klar, was es für Ihr Studium bedeutet, dass es sich beim Projekt um eine Prüfungsleistung handelt, und dass einer von Ihnen beiden eine Kopie der Arbeit abgibt, die der andere als eigene Leistung abgibt.
 =====
 
-
+===============================================================
 === Zweiter Aufgabenblock (identisch für alle Studierenden) ===
+===============================================================
+(gelöscht, da im Lernraum für alle einsehbar)
 
-Sie haben jetzt gezeigt, dass Sie einfache Arbeiten mit einem Git-Repository beherrschen.
-Als Teil der letzten Aufgabe sollten Sie beschreiben, was Ihre Anwendung tun soll, also was für Funktionalitäten Ihre Anwendung bieten soll.
-Wenn Sie hier nichts angegeben haben, dann werde ich Ihnen einen Vorschlag hochladen, mit dem Sie weiterarbeiten können.
-In der Veranstaltung haben Sie außerdem gelernt, was Markup Languages sind.
+===================================
+=== Feedback Alpers, 2016-05-18 ===
+===================================
 
-Die nächste Aufgabe besteht aus den folgenden Teilen:
+Die Zusammenfassung der Projektidee ist gut, auch wenn da noch zu viel steht: Sätze wie "Den Spielern stehen mehrere Aktionsmöglichkeiten zur Auswahl," sind redundant, denn wenn Spielern gar keine Aktionsmöglichkeiten zur Verfügung stehen, dann ist es kein Spiel und ob es nun nur eine einzige Aktionsmöglichkeit gibt oder mehrere ist für die Zusammenfassung bei den meisten Projekten irrelevant. Der folgende Satz fasst es schon sehr schön zusammen: "Sie [die Spieler] müssen neue Ideen austüfteln und verschiedene Ressourcen erwirtschaften, um Erfindungen produzieren und auf einer Einflusspunkteskala ganz nach oben zu klettern."
 
-1.) Lesen Sie mein Feedback durch und setzen Sie die beschriebenen Aufgaben um.
+Denken Sie bitte auch daran, dass es nicht um eine 1:1-Umsetzung des Brettspiels selbst geht. Hier denke ich beispielsweise an die Spielerzahl: Es sollte möglich sein, dass ein Spieler das Spiel alleine spielen kann (Stichwort: Computergegner), aber schauen Sie auch, welche Möglichkeiten es gibt, um das Spiel für mehr als 5 Spieler anzupassen.
 
-Für die folgende Aufgabe sollten Sie mindestens eine halbe Stunde investieren. Zwei Stunden wäre aber etwas zu viel des guten.
-Bearbeiten Sie die Aufgaben 2. und 3. bitte innerhalb von 48 Stunden, weil andere Studierende davon abhängen, dass Sie sie beendet haben.
-Bearbeiten Sie die Aufgaben auf jeden Fall in der vorgegebenen Reihenfolge.
-Und bearbeiten Sie eine Aufgabe nicht nachträglich nochmal. (Wenn Sie also z.B. Aufgabe 3. bearbeiten, dann ändern Sie bitte nichts an Aufgabe 1. nachträglich ab. Dafür wird später noch genug Zeit sein.)
+Wichtig ist jetzt, dass Sie genau wie bei der ursprünglichen Aufgabenstellung eine Beschreibung erstellen, die als Grundlage für die restliche Entwicklung nutzbar ist. Als nächstes sollte die Beschreibung alle für Spieler relevanten Teile des Spiels beinhalten. Die Projektbeschreibung ist also im Kern eine Inhaltsangabe. Der Unterschied gegenüber dem Deutschunterricht ist der, dass Sie ein Computerprogramm zusammenfassen müssen, das Sie selbst konzipieren sollen und für das einige Vorgaben einzuhalten sind.
 
-2.) Bennen Sie die strukturellen Elemente, aus denen Ihre Anwendung bestehen soll.
-Es ist dabei egal, ob es diese Elemente in HTML gibt.
-Es ist auch egal, ob Sie sich schon in HTML eingearbeitet haben.
-Wichtig ist nur, dass Sie die strukturellen Elemente benennen, aus der die Anwendung bestehen soll.
-Speichern Sie diese Aufstellung als HTML-Kommentar in einer Datei mit dem Namen
+Für die Umsetzung in ein Computerspiel müssen Sie jetzt genau herausarbeiten, was für Interaktionsmöglichkeiten es geben soll. Die sind wiederum die Basis für die interaktiven unter den strukturellen Elementen. Und machen Sie hier bitte nicht den Fehler, die Elemente des Brettspiels als Elemente des Computerspiels umzusetzen.
 
-strukt.html
+Hier noch ein Absatz zum Thema Interaktion: Die Schaltflächen, die NutzerInnen verwenden können sind nur die bedienbaren Elemente eines Computerprogramms. Interaktion ist wesentlich mehr als das. Denken Sie beispielsweise daran, wie eine Pokerrunde gespielt wird. Dabei spielt es nämlich eine Rolle, welche Karten abgeworfen wurden. Die Spieler (und bei einem Computerprogramm der Computer) analysieren kontinuierlich das Verhalten der anderen Spieler und ändern Ihren Spielstil in Abhängigkeit davon. Und genau das müssen Sie auch als Teil Ihres Projekts ausarbeiten und in die Projektbeschreibung integrieren.
 
-, die Sie in Ihrem Repository abspeichern. Wichtig: Die Datei soll nicht im Unterverzeichnis Dokumentation des Repositories gespeichert werden, weil sie die Basis für das erste HTML-Dokument werden wird.
+Hier die zweite Schwierigkeit: Sie müssen sich überlegen, was Sie alles streichen und was sie alle ergänzen müssen, damit es ein eigenständiges webbasiertes Computerspiel wird.
 
-Wenn Sie noch unsicher sind: Strukturelle Elemente können alles mögliche sein:
-- Tabellen
-- Listen
-- Schaltflächen
-- Textfelder
-- Bildbereiche
-- Hintergrundmusik
-- Absätze
-- ...
+Sie müssen bei der Projektkonzeption also insbesondere an Dinge denken, die in einem Brettspiel nicht vorkommen. Ein Log-In oder eine Highscore-Liste wären nur zwei von vielen Möglichkeiten, die hinzukommen. Die direkte Unterhaltung zwischen Spielern muss dagegen im Bedarfsfall anders gelöst werden. Und Aufgaben wie das Aufnehmen einer Karte, das verschieben eines Elements auf dem Spielbrett fallen häufig bei Computerspielen unter den Tisch.
 
-In anderen Worten: Ein strukturelles Element ist etwas, das ein abgegrenzter Teil der Anwendung ist.
-Notieren Sie kurz, welche Funktion jedes der von Ihnen genannten Elemente haben soll.
-
-Hier einige Beispiele:
-- Schaltfläche (Nutzer können per Klick bestätigen, dass eine Eingabe abgeschickt werden soll.)
-- Textfeld für Namen (Nutzer können Ihren Nachnamen eintragen.)
-- Log-In-Maske (Bereich, in dem Nutzer sich einloggen können.)
-- - Teile der Log-In-Maske:
-- - Textfeld für Username
-- - Textfeld, das die Eingabe nicht anzeigt, fürs Passwort
-- Tabelle, 7 x 5 Felder (Jedes Feld soll ein Bild anzeigen, das ein Feld des Spielbretts ist. Wenn Nutzer ein Feld anwählen, soll ein Menü erscheinen.)
-- - Menü für jedes Feld der Tabelle mit Texteinträgen (Eintrag für "Gebäude abreißen", "Feld kaufen")
-- Hintergrundbild (Hier sollen einzelne Bilder als Diashow eingeblendet werden.)
-- Werbebanner
-- Schaltfläche für die Maskierung von NSFW (NSFW = Not safe for work)(NutzerInnen können über diese Schaltfläche eine andere Anwendung in der Vordergrund einblenden lassen, damit der Chef nicht sieht, dass sie gerade spielen.)
-
-3.) Schauen Sie jetzt in der Liste der Repositories (nicht in der Tabelle der Accounts) nach, welche zehn Repositories vor und nach Ihrem Repository aufgeführt sind und geben Sie den Besitzern dieser Repositories Zugriffsrechte auf Ihr Repository.
-
-Bsp.: Sie haben das Repository BerndStromberg. Dann folgen die zehn Repositories der Nutzer BlackWolf63, Cantinaband, CaptainWeasle, ColePfeiffer, CurvLietzau,
-DangerDulf, dnbdel, Domsche, Eldinox und Eupuco und vor Ihnen gibt es die fünf Repositories der Nutzer 2238867, amelie-beh, Anger21, anita1997 und Asphalon. all diesen Accounts geben Sie jetzt Zugriffsrechte auf Ihr Repository, so wie Sie das schon für mich getan haben. Wenn Sie, wie BerndStrommberg zu weit am Anfang der Liste stehen (hier gibt es ja nur fünf andere Accounts bis zum Anfang der Liste), dann geben Sie zusätzlich noch den Besitzern der letzten fünf Repositories Zugriffsrechte. Es sollten insgesamt 20 Accounts Zugriffsrecht haben.
-
-Für die nächsten zwei Aufgaben sollten Sie pro Repository zwischen zehn Minuten und einer Stunde aufwenden. Weniger ist zu wenig und mehr ist zu viel.
-Beachten Sie dabei bitte, dass Sie hier letzten Endes Kritik an der Arbeit eines/einer anderen üben und das einige von Ihnen noch nie programmiert haben. Arbeiten Sie deshalb bitte daran, alles, was Sie ergänzen so neutral und höflich wie möglich zu formulieren, denn Unwissenheit und mangelndes Verständnis fürs Programmieren sind eben nicht das selbe wie Dummheit oder Faulheit.
-
-Bitte erledigen Sie diese Aufgaben innerhalb der nächsten sieben Tage.
-
-4.) Als nächstes greifen Sie auf die nach Ihrem Repository nachfolgenden fünf Repositories zu und bearbeiten hier die folgende Aufgabe. (Hier hängen Sie also davon ab, dass andere Kommilitonen Aufgabe 3. erledigt haben.) 
-
-Lesen Sie sich die Projektidee durch und machen Sie sich ähnlich wie bei 2. einfache Stichpunkte über strukturelle Elemente, die Sie bei dieser Projektidee sinnvoll finden. (Hier erstmal nur Stichpunkte, Details arbeiten Sie unter 5. aus.)
-
-5.) Öffnen Sie jetzt die Datei strukt.html des Repositories, das Sie gerade bearbeiten. Ergänzen Sie Elemente, die Sie unter 4. notiert haben und die noch nicht eingetragen sind in der unter 2. beschriebenen Form.
-
-Abschließender Hinweis zu 4. und 5.:
-
-Auch wenn das nirgends explizit steht sollen Sie Änderungen in das Repository pushen, aus dem sie die Datei strukt.html gepullt haben.
-Es ist dabei sehr wahrscheinlich, dass Sie (vielleicht auch erst später während der Projektbearbeitung) einen merge durchführen müssen. Wenn Sie sich noch nicht angesehen haben, wie das geht, dann tun Sie es jetzt.
-
-Viele Grüße,
-Markus Alpers
+Wertung 2: Projektbeschreibung: gesamt: 3 / 10
+- Pro Interaktionsmöglichkeit: 0 
+- Knappe aber klare Beschreibung: 3 (wegen der redundanten Aussagen)
+- Werbeslogans u.ä.: 0 
+- Designaspekte: 0 
+- Voraussetzung bekannten Wissens: 0 
+(Bitte beachten Sie, dass das die Wertung zum aktuellen Zeitpunkt und keine abschließende Wertung Ihrer Beschreibung ist.)
