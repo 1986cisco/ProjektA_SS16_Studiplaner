@@ -1,14 +1,22 @@
 ======================================
 === Projektidee UPDATE, 2016-07-13 ===
 ======================================
-Bei meinem Projekt handelt es sich in Anlehnung an das Brettspiel „Era of Inventions“ (http://www.brettspiele-report.de/era-of-inventions/) um ein Webbasiertes Spiel in dem man in die Rolle eines erfinderischen Unternehmers schlüpft. Dabei muss man neue Erfindungen austüfteln, um auf einer Einflusspunkteskala nach oben zu klettern und das Spiel für sich zu entscheiden.
-Durch den Verkauf von Ideen und das Anmelden von Patenten gelangt man an Gelder, die man in sein Unternehmen investiert. Dazu gehört unter anderem das Erbauen von Produktions- und Forschungsstätten, die es einem ermöglichen seine Produkte selber zu produzieren und zu verkaufen. Bei dem Verkauf ist die die Art und Weise des Marketings wichtig. Dabei denke ich an das Festlegen eines Budgets und die Wahl der Werbeplattform.
+Bei meinem Projekt handelt es sich in Anlehnung an das Brettspiel „Era of Inventions“ (http://www.brettspiele-report.de/era-of-inventions/) um ein webbasiertes Spiel in dem man in die Rolle eines erfinderischen Unternehmers schlüpft. Dabei muss man neue Erfindungen austüfteln, um auf einer Einflusspunkteskala nach oben zu klettern und das Spiel für sich zu entscheiden.
+
+Durch den Verkauf von Ideen und das Anmelden von Patenten gelangt man an Gelder, die man in sein Unternehmen investiert. Dazu gehört unter anderem das Erbauen von Produktions- und Forschungsstätten, die es einem ermöglichen seine Produkte selber zu produzieren und zu verkaufen. Bei dem Verkauf ist die Art und Weise des Marketings wichtig. Dabei denke ich an das Festlegen eines Budgets und die Wahl der Werbeplattform.
+
 Vermehrt man sein Vermögen kann man dies in den Ausbau seiner Produktions- und Forschunsgstätte investieren um noch schneller zu produzieren bzw. zu forschen. Gleichzeitig soll es möglich sein an externe Forschungsaufträge zu gelangen in dem man wie bei einer Auktion darauf bietet. 
+
 Temporär kann man auch geheime Allianzen mit Mitspielern eingehen um durch das Bündeln von Produktions- und Forschungsmitteln größere Forschungsprojekte voranzutreiben. 
+
 Es soll auch möglich sein seine Gegenspieler durch Industriespionage auszuhorchen um beispielsweise deren aktuellen Forschungsstand, Gebote auf externe Forschungsaufträge herauszufinden oder geheime Allianzen aufzudecken. Im Gegenzug ist es möglich diese Spione ausfindig zu machen, was für den bertreffenden Spieler hohe Geldstrafen nach sich zieht. Man kann seine Gegenspieler auch sabotieren indem man ihre Produktions- und Forschungsstätten lahmlegt. 
+
 Deweiteren werden Ereignisskarten gezogen die positive Folgen haben können wie beispielsweise die sofortige Erforschung einer Erfindung oder auch negative wie der Ausfall einer Produktionsstätte oder eine Geldstrafe.
+
 Es soll möglich sein sowohl gegen menschliche als auch gegen Computergegner anzutreten. Die Computergegner sollen dabei unterschiedliche Spielweisen an den Tag legen indem sie beispielsweise ihren Focus auf besonders schnelles Forschen oder aggressives Produzieren und Ausspionieren legen. 
-Die Rundenanzahl wird vor dem Spiel festgelegt. Gewonnen hat derjenige Spieler, der am Ende die meißten Punkte gesammelt hat. Man soll das Spiel auch speichern können um es an einem späteren Zeitpunkt fortzuführen.
+
+Die Rundenanzahl wird vor dem Spiel festgelegt. Gewonnen hat derjenige Spieler, der am Ende die meisten Punkte gesammelt hat. Man soll das Spiel auch speichern können um es an einem späteren Zeitpunkt fortzuführen.
+
 Zusätzlich soll es eine Highscoreliste geben.
 
 ﻿======================================
@@ -113,3 +121,56 @@ Wertung 2: Projektbeschreibung: gesamt: 3 / 10
 ===================================
 
 Leider keine Änderungen seit letztem Feedback.
+
+===================================
+=== Feedback Alpers, 2016-06-23 ===
+===================================
+
+== I ==
+
+Ihre Beschreibung macht klar, wie das Spiel grundsätzlich ablaufen soll. Das ist gut. Leider ist es aber nur schlecht geeignet, um daraus das weitere Projekt abzuleiten, denn der nächste Schritt ist ja die Entwicklung der Struktur. Um Missverständnisse zu vermeiden: Es geht nicht darum, dass Sie hier genau das wiederholen, was dann später in der strukt.html stehen wird.
+
+Hierzu ein Beispiel:
+"Durch den Verkauf von Ideen und das Anmelden von Patenten gelangt man an Gelder, die man in sein Unternehmen investiert. 
+Dazu gehört unter anderem das Erbauen von Produktions- und Forschungsstätten, die es einem ermöglichen seine Produkte selber zu produzieren und zu verkaufen.
+Bei dem Verkauf ist die Art und Weise des Marketings wichtig. 
+Dabei denke ich an das Festlegen eines Budgets und die Wahl der Werbeplattform."
+
+Dem Absatz fehlt eine zusmmenfassende Überschrift, die letztlich in der strukt.html wieder auftaucht. So ließe sich kontrollieren, ob dieser Teil in die Struktur eingebunden ist.
+
+Aber schauen wir uns an, was Sie tun können, damit Sie Ihre Beschreibung so umwandeln können, dass daraus eine Beschreibung wird, auf deren Basis Sie die weitere Entwicklung des Projekts durchführen können:
+
+1) "Durch den Verkauf von Ideen und das Anmelden von Patenten gelangt man an Gelder, die man in sein Unternehmen investiert."
+
+Zerlegen wir mal diesen Satz in alle enthaltenen Informationen:
+- Verkauf: Spieler erhalten Geld für Patente.
+- Anmeldung: Spieler können Patente anmelden.
+- Erweiterung: Mit Geld können Spieler das eigene Unternehmen erweitern.
+
+Die ersten beiden Stichpunkte sind klar, der dritte dagegen nicht. Denn hier fehlt die konkrete Information, wie die Erweiterung des eigenen Unternehmens funktioniert. Andererseits ist das im nächsten Satz notiert:
+
+2) "Dazu gehört unter anderem das Erbauen von Produktions- und Forschungsstätten, die es einem ermöglichen seine Produkte selber zu produzieren und zu verkaufen."
+
+Also wird aus der Beschreibung
+- Erweiterung: Mit Geld können Spieler das eigene Unternehmen erweitern.
+die Beschreibung
+- Produktionsstätten: Mit Geld können Spieler Produktionsstätten erwerben.
+- Produktionsstätten: Produktionsstätten sind Teil des Unternehmens. // Hier ist allerdings fraglich, ob diese Information relevant ist...
+- Produktionsstätten: Mit Hilfe von Produktionsstätten können Spieler Produkte produzieren. // Hier haben wir dann gleich wieder eine Sammlung an Unklarheiten, die aber nicht unbedingt vollständig in der Beschreibung geklärt werden müssen: Welche Produkte? Gibt es Rohstoffabhängigkeiten? Gibt es rechtliche Rahmenbedingungen? (Verbot von Waren/Einfuhr/etc.) usw. usf.
+- Forschungsstätten: Mit Geld können Spieler Forschungsstätten erwerben.
+- Forschungsstätten: Forschungsstätten sind Teil des Unternehmens. // Hier ist allerdings fraglich, ob diese Information relevant ist...
+- Verkauf: Spieler erhalten Geld für Produkte.
+
+Bevor Sie also an anderer Stelle des Projekts weiterarbeiten, transformieren Sie bitte zunächst die Beschreibung in eine solche Basis.
+
+== II ==
+
+Bei der Interaktion zwischen Mensch und Computer sind Sie leider noch zu ungenau: Sie geben bislang lediglich an, dass es eine solche geben soll, konkretisieren das aber nicht weiter.
+
+Wertung 2: Projektbeschreibung: gesamt: 3 / 10
+- Pro Interaktionsmöglichkeit: 0 
+- Knappe aber klare Beschreibung: 4 (Inhaltlich ist das o.k., jetzt fehlt nur noch die Transformation, dann haben Sie eine gute Basis.)
+- Werbeslogans u.ä.: 0 
+- Designaspekte: 0 
+- Voraussetzung bekannten Wissens: 0 
+(Bitte beachten Sie, dass das die Wertung zum aktuellen Zeitpunkt und keine abschließende Wertung Ihrer Beschreibung ist.)
