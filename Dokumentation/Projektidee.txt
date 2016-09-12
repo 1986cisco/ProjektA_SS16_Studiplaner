@@ -202,3 +202,21 @@ Wertung 2: Projektbeschreibung: gesamt: 3 / 10
 - Designaspekte: 0 
 - Voraussetzung bekannten Wissens: 0 
 (Bitte beachten Sie, dass das die Wertung zum aktuellen Zeitpunkt und keine abschließende Wertung Ihrer Beschreibung ist.)
+
+===================================
+=== Feedback Alpers, 2016-06-23 ===
+===================================
+
+Gut, damit haben Sie die zentralen Aspekte des Spiels knapp zusammen gefasst.
+
+Der nächste Schritt bei der Beschreibung besteht nun darin, dass Sie sich überlegen, wie die durch den Computer gesteuerten Spieler vorgehen könnten. Lesen Sie dazu aber bitte zuvor die Hinweise in EMIL unter der Überschrift "Interaktion" durch.
+
+Schade, dass Sie hier noch nicht mit den strukturellen Elementen weiter gemacht haben, denn wie Sie sehen werden lassen sich aus der aktuellen Beschreibung recht leicht die strukturellen Elemente ableiten, aus diesen die Gruppen und aus diesen wiederum Ansichten.
+
+Wertung 2: Projektbeschreibung: gesamt: 5 / 10
+- Pro Interaktionsmöglichkeit: 0 
+- Knappe aber klare Beschreibung: 5
+- Werbeslogans u.ä.: 0 
+- Designaspekte: 0 
+- Voraussetzung bekannten Wissens: 0 
+(Bitte beachten Sie, dass das die Wertung zum aktuellen Zeitpunkt und keine abschließende Wertung Ihrer Beschreibung ist.)
