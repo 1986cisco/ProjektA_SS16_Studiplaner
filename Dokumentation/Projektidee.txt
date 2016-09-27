@@ -30,9 +30,11 @@ Highscore-Liste:  Auf einer Highscore-Liste kann man seine bisherigen Erfolge se
 ###########################################
 
 1. Die Computergegner werden mit dem Spieler handeln wollen, wenn ihnen Rohstoffe fehlen, die gerade nicht auf dem Rohstoffmarkt verfügbar sind, um Produktionen zu starten.
-2. Die Computergegner werden dem Spieler anbieten seine Produktionen in ihren Produktionsstätten zu produieren, wenn sie Geld brauchen und noch freie Produktionskapazitäten besitzen.
+2. Die Computergegner werden dem Spieler anbieten seine Produktionen in ihren Produktionsstätten zu produzieren, wenn sie Geld brauchen und noch freie Produktionskapazitäten besitzen.
 3. Die Computergegner werden versuchen mit Spionage- und Sabotagekarten den Spieler mit den aktuell meisten Punkten zu sabotieren.
 4. Die Computergener werden dem Spieler anbieten gemeinsam zu forschen, wenn sie schnell neues Geld brauchen.
+5. Lehnt man Handelsangebote der Computergegner zu oft ob, so merken diese sich das und lehnen ihrerseits Handelsangebote des Spielers ab.
+6. Die Computergegner werden versuchen Rohstoffbestände aufzukaufen, wenn sie durch Spionage erfahren haben, dass ein Spieler mit vielen Punkten genau diese braucht.
 
 
 
