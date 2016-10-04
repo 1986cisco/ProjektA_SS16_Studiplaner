@@ -1,41 +1,81 @@
 ======================================
-=== Projektidee UPDATE, 2016-09-14 ===
+=== Projektidee UPDATE, 2016-10-05 ===
 ======================================
 
+----Spielprinzip----
 Bei meinem Projekt handelt es sich in Anlehnung an das Brettspiel „Era of Inventions“ (http://www.brettspiele-report.de/era-of-inventions/) um ein webbasiertes Spiel in dem man in die Rolle eines erfinderischen Unternehmers schlüpft. Dabei muss man neue Erfindungen austüfteln, Patente anmelden, Rohstoffe erwerben um eigene Produkte zu produzieren und zu verkaufen und auf einer Prestigeskala nach oben klettern um das Spiel für sich zu entscheiden.
 
-Forschungsstätte: Mit Geld können Spieler neue Forschungsstätte erwerben. Hier werden neue Ideen erforscht und als Patente verkauft wofür der Spieler Geld erhält. Mit Geld sind Forschungsstätte erweiterbar. Zu den Erweiterungen gehören: 1) Ideen werden schneller erforscht 2) mehrere Ideen können gleichzeitig erforscht werden. Jeder Spieler beginnt mit einer kostenlosen Forschungsstätte. Jede weitere erworbene Forschungsstätte kostet Unterhalt und darf bei Geldmangel wiederverkauft werden oder die Forschung zeitweise gestoppt werden.
+----Forschungsstätte----
+Jeder Spieler beginnt mit einer kostenlosen Forschungsstätte. Hier werden neue Ideen erforscht und als Patente verkauft wofür der Spieler Geld erhält. Mit Geld können Spieler weitere Forschungsstätte erwerben. Jede weitere erworbene Forschungsstätte kostet Unterhalt. Bei Geldmangel darf man den Forschungsvorgang zeitweise stoppen um Unterhaltskosten zu sparen oder die Forschungsstätte verkaufen. Außerdem sind Forschungsstätte mit Geld erweiterbar. Zu den Erweiterungen gehören: 1.) Die Forschungsgeschwindigkeit wird erhöht, was die benötigte Rundenanzahl zur Vollendung einer Forschung senkt 2.) Das Baulimit für weitere Forschungsstätte wird erhöht, wodurch noch mehr Forschungen paralel getätigt werden können. 
 
-Produktionsstätte: Mit Geld können Spieler Produktionsstätte erwerben. Hier werden aus Patenten und Rohstoffen neue Produkte hergestellt, deren Verkauf Geld bringt. Produktionsstätte sind mit Geld erweiterbar, Zu den Erweiterungen gehören: 1) Produkte werden schneller produziert 2) benötigte Rohstoffmengen werden gesenkt 3) Rohstoffe werden selber produziert 4) es können mehrere Produkte gleichzeitig produziert werden. Produktionsstätten kosten Unterhalt und dürfen bei Geldknappheit wiederverkauft werden oder zeitweise deren Produktion gestoppt werden.
+----Produktionsstätte----
+Jeder Spieler beginnt mit einer kostenlosen Produktionsstätte. Hat man eine Forschung erfolgreich absolviert kann man diese hier mit den entsprechenden Rohstoffen produzieren und Geld erwirtschaften. Mit Geld können Spieler weitere Produktionsstätte erwerben die Unterhalt kosten. Bei Geldmangel darf man den Produktionsvorgang zeitweise stoppen um Unterhaltskosten zu sparen oder die Produktionsstätte verkaufen. Außerdem sind Produktionsstätte mit Geld erweiterbar. Zu den Erweiterungen gehören: 1.) Der Produktionsvorgang wird beschleunigt, was den Gewinn erhöht 2.) Die benötigten Rohstoffmengen werden gesenkt 3.) Rohstoffe werden selber produziert, was bedeutet, dass man jede Runde zufällig einige Rohstoffe bekommt 4.) Das Baulimit für weitere Produktionsstätte wird erhöht.
 
-Rohstoffe: Rohstoffe müssen für die Produktion von Produkten auf dem Rohstoffmarkt erworben werden oder selbst produziert werden. Produkte brauchen für ihre Herstellung unterschiedliche Rohstoffe. 
+----Rohstoffe----
+Für jede Produktion braucht man bestimmte Rohstoffe. An diese gelangt man durch die Erweiterung "Rohstoffe selber herstellen", das direkte Handeln mit Mitspielern oder dem Erwerb auf dem Rohstoffmarkt.
 
-Rohstoffmarkt: Auf dem Rohstoffmarkt werden verschiedene Rohstoffe zu unterschiedlichen Preisen angeboten. Es gibt pro Runde nur eine begrenzte Anzahl an Rohstoffen. Außerdem dürfen hier Spieler untereinander Rohstoffe tauschen entweder gegen andere Rohstoffe oder gegen Geld.
+----Rohstoffmarkt----
+Auf dem Rohstoffmarkt werden verschiedene Rohstoffe zu unterschiedlichen Preisen angeboten. Die Preise variieren von Runde zu Runde. Außerdem gibt es pro Runde nur eine begrenzte Anzahl an Rohstoffen, wodurch der Spielerhandel wichtig wird.
 
-Schwarzmarkt: Auf dem Schwarzmarkt können verschiedene Spionage- und Sabotageaktionskarten gekauft werden. Dazu gehören: 1) man sieht den aktuellen Forschungs- und Produktionsstand eines Mitspielers 2) man klaut einem Mitspieler Rohstoffe oder Geld 3) durch einen geheimen Angriff auf eine Forschungs- oder Produktionsstätte eines Mitspielers unterbricht man kurzzeitig dessen Produktion oder Forschung 4) man verbietet kurzfristig die Einfuhr bestimmter Rohstoffe.
+----Spielerhandel----
+Beim Spielerhandel kann man Handelsangebote an andere Spieler senden oder selber Handelsangebote annehmen. Das bietet sich an um beispielsweise an benötigte Rohstoffe zu gelangen. Zusätzlich kann Geld geboten werden. Außerdem kann man hier einem Mitspieler anbieten seine Produkte in der eigenen Produktionsstätte herzustellen, soweit man freie Produktionsstätte hat. Der Gewinn wird dann geteilt. Das gleiche gilt für die Forschung. 
 
-Allianzen: Durch Allianzen kann man beispielsweise einem Mitspieler anbieten seine Produkte zu produzieren, falls dieser gerade keine freien Produktionskapazitäten besitzt und den Gewinn teilen oder man bündelt Forschungskapazitäten für die Erforschung von Ideen und teilt den Gewinn. 
+----Schwarzmarkt----
+Auf dem Schwarzmarkt können verschiedene Spionage- und Sabotageaktionskarten gekauft werden. Dazu gehören: 1.) Man sieht den aktuellen Forschungs- und Produktionsstand eines Mitspielers 2.) Man klaut einem Mitspieler Rohstoffe oder Geld 3.) Durch einen geheimen Angriff auf eine Forschungs- oder Produktionsstätte eines Mitspielers unterbricht man kurzzeitig dessen Produktion oder Forschung 4.) Man verhindert für einige Runden die Einfuhr bestimmter Rohstoffe.
 
-Prestigepunkte: Durch das Anmelden von Patenten und den Verkauf eigener Produkte erhält der Spieler Prestigepunkte. Außerdem werden nach Spielende Bonuspunkte verteilt für den Spieler mit den meisten Patenten, dem größten erwirtschafteten Vermögen, den meisten produzierten Produkten und dem meisten Einsatz von Spionage- und Sabotageaktionskarten. Gewonnen hat der Spieler mit den meisten Prestigepunkten nach Ablauf der vorher festgelegten Rundenzahl.
+----Prestigepunkte/Siegesbedingungen----
+Durch das Anmelden von Patenten und den Verkauf eigener Produkte erhält der Spieler Prestigepunkte. Da es durchaus vorkommen kann, dass zwei Spieler das Selbe forschen, gilt, dass der Spieler der zuerst eine bestimmte Forschung abschließt oder ein gewisses Produkt erzeugt mehr Punkte bekommt. Außerdem werden nach Spielende Bonuspunkte verteilt für den Spieler mit den meisten Patenten, dem größten erwirtschafteten Vermögen, den meisten produzierten Produkten und dem meisten Einsatz von Spionage- und Sabotageaktionskarten. Gewonnen hat der Spieler mit den meisten Prestigepunkten nach Ablauf der vorher festgelegten Rundenzahl.
 
-Computergegner: Es soll möglich sein sowohl gegen menschliche als auch gegen Computergegner anzutreten. Die Computergegner sollen dabei unterschiedliche Spielweisen an den Tag legen indem sie beispielsweise ihren Focus auf besonders schnelles Forschen oder aggressives Produzieren und Ausspionieren legen. 
+----Rundenablauf----
+Das Spiel läuft im Grunde rundenbasiert ab. Ist ein Spieler an der Reihe so stehen ihm mehrere Aktionen zur Verfügung. Macht ein Spieler ein Handelsangebot so bekommen dies alle Spieler und können, obwohl sie nicht am Zug sind darauf reagieren und dieses Angebot annehmen oder ein Gegenagebot machen. Ist er mit seinem Zug fertig, so beendet er die Runde.
 
-Log-In-Maske: Durch das Anlegen eines Accounts soll man das Spiel auch speichern können um es an einem späteren Zeitpunkt fortzuführen.
+Forschung:
+1.) neue Forschung beginnen 
+2.) Forschung stoppen 
+3.) Forschung aufleveln 
+4.) Forschungsstätte bauen
+5.) Forschungsstätte verkaufen
 
-Highscore-Liste:  Auf einer Highscore-Liste kann man seine bisherigen Erfolge sehen.
+Produktion:
+1.) neue Produktion beginnen 
+2.) Produktion stoppen 
+3.) Produktion aufleveln 
+4.) Produktionsstätte bauen
+5.) Produktionsstätte verkaufen
+
+Rohstoffmarkt:
+1) Rohstoffe kaufen/verkaufen
+
+Spielerhandel:
+1) Handelsangebot machen
+2) Handelsangebot annehmen
+3) Forschung anbieten
+4) Produktion anbieten
+
+Schwarzmarkt:
+1) Aktionskarte kaufen
+2) Aktionskarte anwenden
+
+----Computergegner----
+Es soll möglich sein sowohl gegen menschliche als auch gegen Computergegner anzutreten. Die Computergegner sollen dabei unterschiedliche Spielweisen an den Tag legen, in dem sie beispielsweise ihren Fokus auf besonders schnelles Forschen oder aggressives Produzieren und Ausspionieren legen. Bei Spielbeginn kann man den Computergegnern einen Schwierigkeitsgrad geben.
+
+----Log-In-Maske----
+Durch das Anlegen eines Accounts soll man das Spiel auch speichern können um es an einem späteren Zeitpunkt fortzuführen.
+
+----Highscore-Liste----
+Auf einer Highscore-Liste kann man seine bisherigen Erfolge sehen.
 
 
 ###########################################
 ####Interaktion mit den Computergegnern####
 ###########################################
+Die Computergegner sollen in der Lage sein das Verhalten des Spielers zu analysieren.
 
-1. Die Computergegner werden mit dem Spieler handeln wollen, wenn ihnen Rohstoffe fehlen, die gerade nicht auf dem Rohstoffmarkt verfügbar sind, um Produktionen zu starten.
+1. Die Computergegner werden mit dem Spieler handeln wollen, wenn ihnen Rohstoffe fehlen, die gerade nicht auf dem Rohstoffmarkt verfügbar sind. 
 2. Die Computergegner werden dem Spieler anbieten seine Produktionen in ihren Produktionsstätten zu produzieren, wenn sie Geld brauchen und noch freie Produktionskapazitäten besitzen.
 3. Die Computergegner werden versuchen mit Spionage- und Sabotagekarten den Spieler mit den aktuell meisten Punkten zu sabotieren.
-4. Die Computergener werden dem Spieler anbieten gemeinsam zu forschen, wenn sie schnell neues Geld brauchen.
-5. Lehnt man Handelsangebote der Computergegner zu oft ob, so merken diese sich das und lehnen ihrerseits Handelsangebote des Spielers ab.
-6. Die Computergegner werden versuchen Rohstoffbestände aufzukaufen, wenn sie durch Spionage erfahren haben, dass ein Spieler mit vielen Punkten genau diese braucht.
-
+4. Lehnt man Handelsangebote der Computergegner zu oft ob, so merken diese sich das und lehnen ihrerseits Handelsangebote des Spielers ab. Nimmt man hingegen öfters mal ein Nagebot des Computergegners an, so revanchieren sich diese mit Geldgeschenken. 
+5. Die Computergegner werden versuchen Rohstoffbestände aufzukaufen, wenn sie durch Spionage erfahren haben, dass ein Spieler mit vielen Punkten genau diese braucht.
 
 
 
