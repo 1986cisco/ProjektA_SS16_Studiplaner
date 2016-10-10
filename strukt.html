@@ -210,7 +210,7 @@ Auflistung der strukturellen Elemente
 202 - Spalte Text/Ausgaben
 203 - Spalte Text/Gewinn
 204 - Text/Spieler xy ist am Zug
-205 - Text/Runde x von y
+205 - Text/Runde x von y(entfällt)
 206 - Schaltfläche mit Image/führt zum Spielerhandelbildschirm
 207 - Label/Spielerhandel
 208 - Überschrift/Forschung
@@ -562,7 +562,7 @@ XXVI. ProduktionAnbieten
 233 - Spalte Dropdown-Menü/Produktion wählen
 
 XXVII. Spezialpunkte
-300 - Tabelle/Spiezialpunkte
+300 - Tabelle/Spezialpunkte
 301 - Titel Tabelle/Spezialpunkte
 302 - Spalte Text/Spieler der am meißten produziert hat
 303 - Spalte/Spieler der am meißten geforscht hat
@@ -574,47 +574,90 @@ XXVIII. Handelsangebot
 124 - Schaltfläche/Handel ablehnen
 125 - Label/ablehnen
 
+XXIX. Rundeninfo
+134 - Text/Spieler xy ist am Zug
+136 - Text/Patent xy erfolgreich erforscht und verkauft
+205 - Text/Runde x von y
+
+
+
 Teil 3
 #############
 ##Ansichten##
 #############
 
-|----------|
-|view_index|
-|----------|
-	
-	I.  Login
-	II. Registrierung
-		
-		
-|----------------------|
-|view_spielvorbereitung|
-|----------------------|
-	
-	III. Startmenue
-	IV.  Spielerstellung
-	V.   Spiel_laden
+----------
+view_index
+----------
+I. LogIn
+II. Registrierung
 
-	
-|---------|	
-|view_game|
-|---------|	
-	VI.  Spielerinfoleiste
-	VII. Speichern
-	VII. Forschung
-	IX.  Produktion
-	X.   Rohstoffmarkt
-	XI.  Spielerhandel
-	XII. Schwarzmarkt
-	
-	
-|---------|
-|view_ende|
-|---------|
-	XIII. Spielende
+----------------------
+view_spielvorbereitung
+----------------------
+IV. SpielErstellen
+V. SpielLaden
+VI. Spielsuche
+
+----------
+view_lobby
+----------
+VII. Lobby
+
+---------
+view_game
+---------
+VIII. Hauptleiste
+IX. Punktetabelle
+X. Finanztabelle
+XI. Aktionsleiste
+XXIX. Rundeninfo
+
+--------------
+view_forschung
+--------------
+XII. Forschungsstätte
+XIV. ForschungLvlUp
+XV. Forschungskosten
+
+---------------
+view_produktion
+---------------
+XVI. Produktionssstätte
+XVII. ProduktionLvlUp
+XVIII. Produktionskosten
+XIX. Rohstofflager
+
+------------------
+view_rohstoffmarkt
+------------------
+XX. Rohstoffmarkt
+
+-----------------
+view_schwarzmarkt
+-----------------
+XXI. AktionskarteKaufen
+XXII. AktionskarteAnwenden
+XXIII. AktionskartenÜbersicht
+
+------------------
+view_spielerhandel
+------------------
+XXIV. AngebotErstellen
+XXV. ForschungAnbieten
+XXVI. ProduktionAnbieten
+XXVIII. Handelsangebot
+
+--------------
+view_Spielende
+--------------
+XXVII. Spezialpunkte
 
 
-ENDE UPDATE - 19.09.16
+
+!---FRAGE: Was passiert mit einzelnen Elementen die nicht in Gruppen sind aber trotzdem Teil einer View sein sollen?---!
+
+ENDE UPDATE - 10.10.16
 
 #####################################################################################################################################
 
