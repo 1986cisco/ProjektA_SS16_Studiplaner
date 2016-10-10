@@ -102,7 +102,7 @@ Auflistung der strukturellen Elemente
 94 - Label/Name des Produktes(entfällt)
 95 - Label/Level der Produktionsstätte(entfällt)
 96 - Hintergrundbild_Rohstoffmarkt(entfällt)
-97 - Überschrifft/Rohstoffmarkt
+97 - Überschrift/Rohstoffmarkt
 98 - Anzeige/eigene Rohstoffbestände(entfällt)
 99 - Label/Name des Rohstoffes(entfällt)
 101 - Button mit Bild/entsprechenden Rohstoff kaufen(entfällt)
@@ -161,8 +161,8 @@ Auflistung der strukturellen Elemente
 153 - Formular/Registrierung
 154 - Titel des Formulares/Registrierung
 155 - SubmitButton/bestätigt Eingaben
-156 - Überschrifft Startmenü
-157 - Überschrift - Spiel erstellen
+156 - Überschrift/Startmenü
+157 - Überschrift/Spiel erstellen
 158 - Formular/Spiel erstellen
 159 - Titel des Formulares/Spiel erstellen
 160 - Eingabefeld für Nummern/Spieleranzahl
@@ -175,12 +175,12 @@ Auflistung der strukturellen Elemente
 167 - Label/Eingabefeld für Spielname
 168 - Eingabefeld/Spielpasswort
 169 - Label/Spielpasswort
-170 - SubmitButton/bestätigt Eingaben
+170 - SubmitButton/bestätigt Eingaben(entfällt)
 171 - Schaltfläche/Ausloggen führt zum Log-In-Bildschirm
 172 - Überschrift Spielelobby
 173 - Tabelle/es werden alle Spieler angezeigt und ob sie schon verbunden sind)
-174 - Spalte/Spielername
-175 - Spalte/spielbereit
+174 - Spalte Text/Spielername
+175 - Spalte Text/spielbereit
 176 - Schaltfläche/Spielstarten
 177 - Überschrifft/Spielsuche
 178 - Tabelle/hier werden die Spiele mit Infos angezeigt
@@ -305,6 +305,11 @@ Auflistung der strukturellen Elemente
 297 - Spalte Zahl/Anzahl in Besitz
 298 - Spalte Text/Erklärung
 299 - Text/Spionagebericht
+300 - Tabelle/Spiezialpunkte
+301 - Titel Tabelle/Spezialpunkte
+302 - Spalte Text/Spieler der am meißten produziert hat
+303 - Spalte/Spieler der am meißten geforscht hat
+304 - Spalte/Spieler der am meißten Aktionskarten eingesetzt hat
 
 ############
 Anmerkungen#
@@ -313,235 +318,261 @@ Dadurch das ich die strukturellen Elemente noch einmal gründlich überarbeitet 
 Dadurch erscheint die Nummerierung erst einmal sehr hoch. Auch haben zusammengehörende Elemente teils stark varierende Nummern. 
 
 
-VORSICHT!!!!!!!! UNTEN STEHENDER TEIL IST NOCH VERALTET!!!!!BEARBEITUNG ERFOLGT BALDMÖGLICHST!
-
 Teil 2
 ##################################
 ##Gruppen struktureller Elemente##
 ##################################
 
----------
-I. Login
----------
-	01 - Eingabefeld/Username eingeben
-	02 - Label/Username
-	03 - Eingabefeld/Passwort eingeben
-	04 - Label/Passwort
-	05 - Hyperlink/bestätigt Log-In-Eingaben und führt zum Hauptmenü
-	06 - Label/Log In
-	07 - Hindergrundbild_Era_of_inventions
-	08 - Label/Überschrifft Era_of_inventions
-	09 - Hyperlink/Link zu den Spielregeln
-	10 - Label/Spielregeln
-	11 - Hyperlink/führt zur Registrierung
-	12 - Label/Registrierung
+I. LogIn
+151 - Formular/LogIn
+152 - Titel des Formulares/LogIn
+01 - Eingabefeld/Username eingeben
+02 - Label/Username
+03 - Eingabefeld/Passwort eingeben
+04 - Label/Passwort
+155 - SubmitButton/bestätigt Eingaben
 
-------------------	
 II. Registrierung
-------------------
-	01 - Eingabefeld/Username eingeben
-	02 - Label/Username
-	03 - Eingabefeld/Passwort eingeben
-	04 - Label/Passwort
-	13 - Textfeld/Passwort wiederholen
-	14 - Textfeld/E-Mail eingeben
-	15 - Button/Registrierung durchführen
-	16 - Label/Passwort wiederholen
-	17 - Label/Email eingeben
-	18 - Label/Register me
-	19 - Hyperlink/Ausloggen führt zum Log-In-Bildschirm
-	150 - Label/ausloggen
+153 - Formular/Registrierung
+154 - Titel des Formulares/Registrierung
+01 - Eingabefeld/Username eingeben
+02 - Label/Username
+03 - Eingabefeld/Passwort eingeben
+04 - Label/Passwort
+13 - Textfeld/Passwort wiederholen
+14 - Textfeld/E-Mail eingeben
+16 - Label/Passwort wiederholen
+17 - Label/Email eingeben
+155 - SubmitButton/bestätigt Eingaben
 
-----------------	
-III. Startmenue
-----------------
-	20 - Hyperlink/führt zum Spiel erstellen Bildschirm
-	21 - Hyperlink/führt zum Spiel laden Bildschirm
-	22 - Hyperlink/führt zum Spieleinladungen sehen Bildschirm
-	23 - Label/Spiel erstellen
-	24 - Label/Spiel laden
-	25 - Label/Spieleinladungen sehen
-	19 - Hyperlink/Ausloggen führt zum Log-In-Bildschirm
-       150 - Label/ausloggen
-	26 - Label/Spielername
-	
---------------------
-IV. Spielerstellung
---------------------
-	26 - Label/Spielername
-	27 - Label/zeigt Spieler an die bereit sind
-	28 - Häkchen/sich auf Spielbereit setzten
-	29 - Label/auf bereit klicken
-	30 - Textfeld/Rundenanzahl (gesperrt wenn geladener Speicherstand)
-	31 - Label/Rundenanzahl
-	32 - Textfeld/Anzahl Computergegner (gesperrt wenn geladener Speicherstand)
-	33 - Label/Anzahl Computergegner
-	34 - Textfeld/Spieler einladen in dem man ihren Nickname eingibt, diese erhalten dann eine Spieleinladung (gesperrt wenn geladener Speicherstand)
-	35 - Label/Spieler einladen
-	36 - Hyperlink/Spiel starten, erst möglich wenn alle Spieler bereit sind
-	37 - Label/Spiel starten
-	38 - Hyperlink/führt zum Startmenü
-	39 - Label/zurück zum Startmenü
+III. Startmenü
+20 - Schaltfläche/führt zum Spiel erstellen Bildschirm
+21 - Schaltfläche/führt zum Spiel laden Bildschirm
+22 - Schaltfläche/führt zum Spiel suchen Bildschirm
+23 - Label/Spiel erstellen
+24 - Label/Spiel laden
+25 - Label/Spiel suchen
+171 - Schaltfläche/Ausloggen führt zum Log-In-Bildschirm
+150 - Label/Logout zurück zum LogIn
 
----------------
-V. Spiel_laden
----------------
-	40 - Hyperlink/Spiel beitreten
-	41 - Label/Beitreten
-	42 - Label/Spielname
+IV. SpielErstellen
+158 - Formular/Spiel erstellen
+159 - Titel des Formulares/Spiel erstellen
+160 - Eingabefeld für Nummern/Spieleranzahl
+161 - Label/Spieleranzahl
+162 - Label/Schwierigkeitsgrad Computeregener
+163 - Radio-Button/CPU leicht
+164 - Radio-Button/CPU mittel
+165 - Radio-Button/CPU schwer
+166 - Eingabefeld/Spielname
+167 - Label/Eingabefeld für Spielname
+168 - Eingabefeld/Spielpasswort
+169 - Label/Spielpasswort
+30 - Eingabefeld für Nummern/Rundenanzahl
+31 - Label/Rundenanzahl
+32 - Eingabefeld für Nummern/Anzahl Computergegner
+33 - Label/Anzahl Computergegner
 
-----------------------
-VI. Spielerinfoleiste
-----------------------	
-	43 - Hyperlink/fürt zum Speicherbildschirm
-	44 - Label/Spiel speichern
-	45 - Anzeige/Punkte aller Spieler
-	46 - Label/Punkte aller Spieler
-	47 - Anzeige/Vermögen des Spielers
-	48 - Label/Kontostand
-	49 - Anzeige/Rohstoffe des Spielers
-	50 - Label/Rohstoffe
-	51 - Hyperlink mit Image/führt zum Forschungsbildschirm
-	52 - Label/Forschungsstätte
-	53 - Hyperlink mit Image/führt zum Produktionsbildschirm
-	54 - Label/Produktionsstätte
-	55 - Hyperlink mit Image/führt zum Rohstoffmarktbildschirm
-	56 - Label/Rohstoffmarkt
-	57 - Hyperlink mit Image/führt zum Schwarzmarktbildschirm
-	58 - Label/Schwarzmarkt
-       134 - Label/Spieler xy ist am Zug
-       136 - Label/Patent xy erfolgreich erforscht und verkauft
-       140 - Label/Forschungsunterhalt
-       141 - Label/Produktionsunterhalt
-       151 - Label/Produktion oder Forschung xy für xy Runden gestoppt
-        19 - Hyperlink/Ausloggen führt zum Log-In-Bildschirm
-       150 - Label/ausloggen
-	
----------------
-VII. Speichern
----------------
-	59 - Textfeld/Speicherstand benennen
-	60 - Label/Spielstand benennen
-	61 - Submit-Button/Spiel speichern
-	62 - Label/speichern
+V. SpielLaden
+187 - Tabelle/Speicherstände
+188 - Spalte/Spielname
+189 - Spalte/Datum
+190 - Spalte Schaltfläche/Spiel laden
 
-----------------
-VIII. Forschung
-----------------
-	63 - Hintergrundbild_Forschung	
-	64 - Button/Forschungsstätte bauen
-	65 - Label/Forschungsstätte bauen
-	67 - Button/Forschung starten
-	68 - Label/Forschung starten
-	69 - Button/Forschung abbrechen
-	70 - Label/Forschung abbrechen
-	71 - Button/Forschungsstätte aufleveln
-	72 - Label/level-up
-	73 - Anzeigebalken/Forschungsfortschritt
-	74 - Label/Forschungsfortschritt
-	75 - Bild/jede Forschungsstätte bekommt ein Bild, welches ersetzt wird durch ein Bild der aktuellen Forschung
-	76 - Label/Name des Forschungsobjektes
-	77 - Label/Level der Forschunsgstätte
-	78 - Label/Forschung	
-	79 - Hyperlink/führt zurück zum Hauptspielbildschirm
-       151 - Label/zurück
-       139 - Button/Forschungsstätte verkaufen
-       138 - Label/verkaufen   
+VI. Spielsuche
+178 - Tabelle/hier werden die Spiele mit Infos angezeigt
+179 - Titel Tabelle/Spiele
+180 - Spalte Text/Spielname
+181 - Spalte Zahl/Spieleranzahl
+182 - Spalte Zahl/Anzahl Computergegner
+183 - Spalte Zahl/Rundenanzahl
+184 - Spalte Eingabefeld/Passwort
+185 - Spalte Schaltfläche/beitreten
 
----------------
-IX. Produktion
----------------
-	80 - Hintergrundbild_Produktion
-	81 - Label/Produktion
-	82 - Anzeige/eigene Rohstoffbestände
-	83 - Label/Rohstoffbestände
-	84 - Button/Produktionsstätte bauen
-	85 - Label/Produktionsstätte bauen
-	86 - Button/produktion starten
-	87 - Label/Produktion starten
-	88 - Button/produktion stoppen
-	89 - Label/Produktion stoppen
-	90 - Button/Produktionsstätte aufleveln
-	91 - Anzeigebalken/Produktionsfortschritt
-	92 - Label/Produktionsfortschritt
-	93 - Bild/jede Produktionsstätte bekommt ein Bild, welches ersetzt wird durch ein Bild der aktuellen Produktion
-	94 - Label/Name des Produktes
-	95 - Label/Level der Produktionsstätte
-       137 - Button/Produktionsstätte verkaufen
-        79 - Hyperlink/führt zurück zum Hauptspielbildschirm
-       151 - Label/zurück
-   	
+VII. Lobby
+173 - Tabelle/es werden alle Spieler angezeigt und ob sie schon verbunden sind)
+174 - Spalte/Spielername
+175 - Spalte/spielbereit
+176 - Schaltfläche/Spielstarten
 
------------------
-X. Roshtoffmarkt
------------------
-	96 - Hintergrundbild_Rohstoffmarkt
-	97 - Label/Rohstoffmarkt
-	98 - Anzeige/eigene Rohstoffbestände
-	99 - Label/Name des Rohstoffes
-       101 - Button mit Bild/entsprechenden Rohstoff kaufen
-       102 - Label/kaufen
-       103 - Button mit Bild/entsprechenden Rohstoff verkaufen
-       104 - Label/verkaufen
-       105 - Hyperlink/mit Mitspielern handeln, ruft Spielerhandelbildschirm auf
-        79 - Hyperlink/führt zurück zum Hauptspielbildschirm
-       151 - Label/zurück
- 
-------------------
-XI. Spielerhandel
-------------------
-      106 - Hintergrundbild_Spielerhandel
-      107 - Label/Spielerhandel
-      108 - Dropdown-Menü/Spieler auswählen
-      109 - Label/Spieler auswählen
-      110 - Button mit Bild/angebotene Rohstoffmenge erhöhen
-      111 - Label/erhöhen
-      112 - Button mit Bild/angebotene Rohstoffmenge senken
-      113 - Label/senken	
-      114 - Button mit Bild/geforderte Rohstoffmenge erhöhen
-      115 - Button mit Bild/geforderte Rohstoffmenge senken
-      116 - Textfeld/Geld bieten
-      117 - Label/bieten
-      118 - Textfeld/Geld fordern
-      119 - Label/fordern
-      120 - Button/Handel anbieten
-      121 - Label/anbieten
-      122 - Button/Handeln annehmen
-      123 - Label/annehmen
-      124 - Button/Handel ablehnen
-      125 - Label/ablehnen
-      126 - Label/Handel erfolgreich oder nicht erfolgreich
-      127 - Hyperlink/führt zurück zum Rohstoffmarkt
-      151 - Label/zurück
-      143 - Dropdown-Menü/Spieler auswählen
-      144 - Label/Spieler auswählen
-      145 - Dropdown-Menü/Forschung wählen
-      146 - Label/Forschung
-      147 - Button/anbieten
-      148 - Label/Produktion
-      149 - Dropdown-Menü/Produktion auswählen   
+VIII. Hauptleiste
+19 - Schaltfläche/Ausloggen führt zum Log-In-Bildschirm
+150 - Label/Logout zurück zum LogIn
+38 - Schaltfläche/führt zum Startmenü
+39 - Label/zurück zum Startmenü
+61 - Schaltfläche/Spiel speichern
+62 - Label/Spiel speichern
+192 - Schaltfläche/Runde beenden
+193 - Label/Runde beenden
 
-------------------
-XII. Schwarzmarkt
-------------------
-   128 - Hindergrundbild_Schwarzmarkt
-   129 - Label/Schwarzmarkt
-   130 - Button mit Bild/Sabotage oder Spionagekarte kaufen
-   131 - Label/kaufen
-   131 - Button mit Bild/Sabotage oder Spionagekarte einsetzten
-   133 - Label/einsetzten
-    79 - Hyperlink/führt zurück zum Hauptspielbildschirm
-   151 - Label/zurück
+IX. Punktetabelle
+194 - Tabelle/Punktestand
+195 - Titel Tabelle/Punkte
+196 - Spalte Text/Spielername
+197 - Spalte Text/Punkte
 
-----------------
-XIII. Spielende
-----------------
-   135 - Label/Spieler xy hat gewonnen
-   135 - Label/Bisherige Höchstpunktzahl des Spielers
-   142 - Liste/Welcher Spieler hat welche Bonuspunkte erspielt
-    19 - Hyperlink/Ausloggen führt zum Log-In-Bildschirm
-   150 - Label/ausloggen
+X. Finanztabelle
+198 - Tabelle/Finanzen
+199 - Titel Tabelle/Finanzen
+200 - Spalte Text/Kontostand
+201 - Spalte Text/Einnahmen
+202 - Spalte Text/Ausgaben
+203 - Spalte Text/Gewinn
 
+XI. Aktionsleiste
+51 - Schaltfläche mit Image/führt zum Forschungsbildschirm
+52 - Label/Forschungsstätte
+53 - Schaltfläche mit Image/führt zum Produktionsbildschirm
+54 - Label/Produktionsstätte
+55 - Schaltfläche mit Image/führt zum Rohstoffmarktbildschirm
+56 - Label/Rohstoffmarkt
+57 - Schaltfläche mit Image/führt zum Schwarzmarktbildschirm
+58 - Label/Schwarzmarkt
+206 - Schaltfläche mit Image/führt zum Spielerhandelbildschirm
+207 - Label/Spielerhandel
+
+
+XII. Forschungsstätte
+209 - Formular/Forschung
+210 - Titel des Formulares/Forschung
+211 - Tabelle/Forschung
+212 - Titel Tabelle/Forschung
+213 - Spalte Text/Besitzer der Forschungsstätte
+214 - Spalte Dropdown-Menü/Forschung wählen
+215 - Spalte Fortschrittsbalken/Anzeige Forschungsfortschritt
+216 - Spalte Checkbox/Forschung stoppen
+217 - Spalte Checkbox/Forschungsstätte verkaufen
+155 - SubmitButton/bestätigt Eingaben
+
+XIV. ForschungLvlUp
+218 - Formular/Forschung aufleveln
+219 - Checkbox/Baulimit erhöhen
+220 - Checkbox/Forschungsgeschwindigkeit erhöhen
+155 - SubmitButton/bestätigt Eingaben
+
+XV. Forschungskosten
+221 - Tabelle/ForschungKosten Übersicht
+222 - Titel Tabelle/Forschungskosten
+223 - Spalte/Kontostand
+224 - Spalte/UnterhaltskostenForschung
+225 - Spalte/Kosten neue Forschungsstätte
+226 - Spalte/Kosten LevelUp Baulimit erhöhen
+227 - Spalte/Kosten LevelUp Forschungsgeschwindigkeit erhöhen
+
+XVI. Produktionssstätte
+228 - Formular/Produktion
+229 - Titel des Formulares/Produktion
+230 - Tabelle/Produktion
+231 - Titel Tabelle/Produktion
+232 - Spalte Text/Besitzer der Produktionsstätte
+233 - Spalte Dropdown-Menü/Produktion wählen
+234 - Spalte Liste/benötigte Rohstoffe
+235 - Spalte Checkbox/Produktion stoppen
+236 - Spalte Checkbox/Produktionsstätte verkaufen
+237 - Spalte Text/Gewinn
+155 - SubmitButton/bestätigt Eingaben
+
+XVII. ProduktionLvlUp
+238 - Formular/Produktion aufleveln
+239 - Titel des Formulares/Produktion aufleveln
+240 - Checkbox/Baulimit erhöhen
+241 - Checkbox/Produktionsgeschwindigkeit erhöhen
+242 - Checkbox/Rohstoffe herstellen
+243 - Checkbox/Rohstoffverbrauch senken
+155 - SubmitButton/bestätigt Eingaben
+
+XVIII. Produktionskosten
+244 - Tabelle/ProduktionsKosten Übersicht
+245 - Titel der Tabelle/ProduktionsKosten Übersicht
+246 - Spalte Zahl/Kontostand
+247 - Spalte Zahl/UnterhaltskostenProduktion
+248 - Spalte Zahl/Kosten neue Produktionsstätte
+249 - Spalte Zahl/LevelUp Baulimit erhöhen
+250 - Spalte Zahl/LevelUp Produnktionsgeschwindigkeit erhöhen
+251 - Spalte Zahl/LevelUp Rohstoffe herstellen
+252 - Spalte Zahl/Rohstoffverbrauch senken
+
+XIX. Rohstofflager
+253 - Tabelle/Rohstofflager
+254 - Tabelle Titel/Rohstofflager
+255 - Spalte Text/Rohstoff
+256 - Spalte Zahl/Anzahl
+
+XX. Rohstoffmarkt
+258 - Formular/Rohstoffmarkt
+259 - Titel des Formulares/Rohstoffmarkt
+260 - Tabelle/Rohstoffmarkt
+261 - Titel Tabelle/Rohstoffmarkt
+262 - Spalte Text/Rohstoff
+263 - Spalte Eingabefeld für Zahl/Menge
+264 - Spalte Zahl/Eigenbestand
+265 - Spalte Text/Kosten
+155 - SubmitButton/bestätigt Eingaben
+
+XXI. AktionskarteKaufen
+288 - Formular/Aktionskarte kaufen
+289 - Titel des Formulares/Aktionskarte kaufen
+290 - Label/Karte
+291 - Dropdown-Menü/Karte auswählen
+155 - SubmitButton/bestätigt Eingaben
+
+XXII. AktionskarteAnwenden
+292 - Formular/Aktionskarte anwenden
+293 - Titel des Formulares/Aktionskarte anwenden
+291 - Dropdown-Menü/Karte auswählen
+290 - Label/Karte
+282 - Dropdown-Menü/Spieler auswählen
+283 - Label für Dropdown-Menü/Spieler auswählen
+292 - Formular/Aktionskarte anwenden
+293 - Titel des Formulares/Aktionskarte anwenden
+155 - SubmitButton/bestätigt Eingaben
+
+XXIII. AktionskartenÜbersicht
+294 - Tabelle/Aktionskartenübersicht
+295 - Titel der Tabelle/Aktionskarten
+296 - Spalte Text/Karte
+297 - Spalte Zahl/Anzahl in Besitz
+298 - Spalte Text/Erklärung
+
+XXIV. AngebotErstellen
+267 - Formular/Handelsangebot zusammenstellen
+268 - Titel des Formulars/Handelsangebot zusammenstellen
+269 - Tabelle/Angebot
+270 - Titel Tabelle/Angebot
+271 - Spalte Text/Rohstoff
+272 - Spalte Eingabefeld für Zahlen/Menge auswählen
+273 - Label/Menge
+274 - Eingabefeld für Zahlen/Geldmenge auswählen
+275 - Label/Geld
+155 - SubmitButton/bestätigt Eingaben
+
+XXV. ForschungAnbieten
+280 - Formular/Forschungsangebot
+281 - Titel des Formulares/Forschungsangebot
+282 - Dropdown-Menü/Spieler auswählen
+283 - Label für Dropdown-Menü/Spieler auswählen
+284 - Dropdown-Menü/Forschung auswählen
+285 - Label für Dropdown-Menü/Forschung auswählen
+
+XXVI. ProduktionAnbieten
+286 - Formular/Produktionsangebot
+287 - Titel des Formulares/Produktionsangebot
+282 - Dropdown-Menü/Spieler auswählen
+283 - Label für Dropdown-Menü/Spieler auswählen
+233 - Spalte Dropdown-Menü/Produktion wählen
+
+XXVII. Spezialpunkte
+300 - Tabelle/Spiezialpunkte
+301 - Titel Tabelle/Spezialpunkte
+302 - Spalte Text/Spieler der am meißten produziert hat
+303 - Spalte/Spieler der am meißten geforscht hat
+304 - Spalte/Spieler der am meißten Aktionskarten eingesetzt hat
+
+XXVIII. Handelsangebot
+122 - Schaltfläche/Handeln annehmen
+123 - Label/annehmen
+124 - Schaltfläche/Handel ablehnen
+125 - Label/ablehnen
 
 Teil 3
 #############
