@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<title>Spielvorbereitung</title>
+</head>
+	
+<body>
+	<h1>Era of Inventions</h1>
+	<!-- <img Hier das Hintergrundbild einfügen /> -->
+	
+	<h2>Spiel erstellen</h2>
+	<!-- Hier kann man ein neues Spiel erstellen-->
+	<form>
+		<fieldset>
+		<legend>Spiel erstellen	</legend>
+		<label for=Spieleranzahl>Spieleranzahl:</label>
+		<input id=Spieleranzahl name=Spieleranzahl type=number min=2 value=2>
+		<br>
+		<label for=Computergegner>Computergegner:</label>
+		<input id=Computergegner name=Computergegner type=number min=0 value=0>
+		<br>
+		<label for=difficulty>Schwierigkeitsgrad Computergegner:</label>
+		<br>
+		<input type=radio name=difficulty  value=easy checked> Einfach
+		<br>
+		<input type=radio name=difficulty  value=medium> Mittel
+		<br>
+		<input type=radio name=difficulty  value=hard> Schwierig
+		<br>
+		<label for=Rundenanzahl>Rundenanzahl:</label>
+		<input id=Rundenanzahl name=Rundenanzahl type=number min=1 value=1>
+		<br>
+		<label for=gamename>Spielname:</label>
+		<input id=gamename name=gamename required>
+		<br>
+		<label for=gamepassword>Passwort (optional):</label>
+		<input id=gamepassword type=password>
+		<br>
+		<input type=submit>
+		</fieldset>
+	</form>
+		
+	<h2>Spiel laden</h2>
+	<!-- Hier kann man einen gespeicherten Spielstand laden -->
+	<fieldset>
+	<table>
+		<caption>Speicherstände</caption>
+		<tbody>
+			<tr>
+				<th>Spielname</th>
+				<th>Datum</th>
+				<th>laden</th>
+				</tr>
+			</tbody>
+	</table>
+	</fieldset>
+	
+	<h2>Spielsuche</h2>
+	<!--Hier sieht man eine Tabelle mit offenen Spielen -->	
+	<fieldset>
+		<table>
+			<caption>Spielsuche</caption>
+			<tbody>
+				<tr>
+					<th>Spielname</th>
+					<th>Spieleranzahl</th>
+					<th>CPU-Gegner</th>
+					<th>Rundenanzahl</th>
+					<th>PW</th>
+					<th>beitreten</th>
+				</tr>
+			</tbody>
+		</table>
+	</fieldset>
+		
+		<input type=button value="Startmenue">
+		<input type=button value="Logout">
+	
+</body>
+
+</html>
