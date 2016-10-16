@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<title>Forschung</title>
+</head>
+	
+<body>
+	<h1>Era of Inventions</h1>
+	<!-- <img Hier das Hintergrundbild einfügen /> -->
+
+	<h2>Forschung</h2>
+	
+	<!-- Über diese Tabelle kann man neue Forschungungen auswählen, deren Fortschritt sehen, gegebenenfalls die Forschung stoppen oder die Forschungsstätte verkaufen-->
+	<section>
+      <fieldset>
+	  <form>
+		<table>
+			<caption>Forschung</caption>
+			<tbody>
+				<tr>
+					<th>Besitzer</th>
+					<th>Forschung waehlen</th>
+					<th>Forschungsfortschritt</th>
+					<th>Stoppen</th>
+					<th>Verkaufen</th>
+				</tr>
+				<tr>
+					<th>
+					</th>
+					<th>
+					<select>
+					</select>
+					</th>
+					<th>
+					<progress>
+					</th>
+					<th>
+					<input type=checkbox name=stoppen value="Stoppen">
+					</th>
+					<th>
+					 <input type=checkbox name=verkaufen value="Verkaufen">
+					</th>
+			</tbody>
+		</table>
+		<input type=submit>
+		</form>
+		</fieldset>
+		</section>
+		
+		<!-- Über diesen Button kauft man neuen Forschungsstätte -->
+		<br>
+		<input type=button value="Forschungsstaette kaufen" onclick=function()>
+		<br>
+		
+		<!-- Hier kann man seine Forschungsstätten aufleveln -->
+		<section>
+			<fieldset>
+			<legend>Was moechten Sie leveln</legend>
+			<form>
+			<input type=checkbox name=mehrFSbauen value=mehrFSbauen>Baulimit erhoehen
+			<input type=checkbox name=schnellerForschen value=schnellerForschen>Forschungsgeschwindigkeit erhoehen
+			</form>
+			<input type=submit>
+			</fieldset>
+		</section>
+		
+		<!-- Diese Tabelle gibt einem eine Übersicht über aktuelle Kosten -->
+		<fieldset>
+		<table>
+			<caption>Kosten</caption>
+			<tbody>
+				<tr>
+					<th>Kontostand</th>
+					<th>Unterhaltskosten</th>
+					<th>Kosten neue Forschungsstätte</th>
+					<th>Kosten level-up Baulimit</th>
+					<th>Kosten level-up Forschungsgeschwindigkeit</th>
+				</tr>
+			</tbody>
+		</table>
+		</fieldset>
+		
+		<!-- führt zurück zum hauptspielbildschirm-->
+		<input type=button value="Zurueck">
+	</body>
+
+</html>
