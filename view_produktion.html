@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<title>Produktion</title>
+</head>
+	
+<body>
+	<h1>Era of Inventions</h1>
+	<!-- <img Hier das Hintergrundbild einfügen /> -->
+	<h2>Produktion</h2>
+	
+
+	<!-- Hier kann man seine Produktionen einstellen, sieht die benötigten Rohstoffe und den erwarteten Gewinn. Man kann hier auch aus Kostengründen Produktionen stoppen oder Produktiobsstätte verkaufen -->
+	<section>
+      <form>
+	  <fieldset>
+		<legend>Was moechten Sie produzieren:</legend>
+		<table>
+			<tbody>
+				<tr>
+					<th>Besitzer</th>
+					<th>Produktion waehlen</th>
+					<th>benoetigte Rohstoffe</th>
+					<th>Stoppen</th>
+					<th>Verkaufen</th>
+					<th>Gewinn</th>
+				</tr>
+				<tr>
+					<th></th>
+					<th>
+					 <select>
+					 </select>
+					</th>
+					<th>
+					 </th>
+					<th>
+					 <input type=checkbox name=stoppen value="Stoppen">
+					</th>
+					<th>
+					 <input type=checkbox name=verkaufen value="Verkaufen">
+					</th>
+					<th>
+					 
+					</th>
+			</tbody>
+		</table>
+		<input type=submit name=Produktion>
+		</fieldset>
+		</form>
+		</section>
+		
+		<!-- Neue Produktionsstätte kaufen-->
+		<section>
+		 <form>
+			<label for=Produktionsstaette>Produktionsstaette kaufen</label>
+		<input type=submit name=Produktionsstaette>
+		</form>
+		</section>
+
+		<br>
+	<!-- Hier levelt man seine Produktion auf-->	
+	<section>
+	 <form>
+	  <fieldset>
+		<legend>Was moechten Sie leveln:</legend>
+	  	  <input type=checkbox name=mehrFSbauen value=mehrFSbauen>Baulimit erhoehen
+		  <input type=checkbox name=schnellerForschen value=schnellerForschen>Produktionsgeschwindigkeit erhoehen
+		  <input type=checkbox name=eigeneRohstoffe value=eigeneRohstoffe>Rohstoffe herstellen
+		  <input type=checkbox name=RohstoffverbrauchSenken value=RohstoffverbrauchSenken>Rohstoffverbrauch senken
+		  <input type=submit name=leveln>
+	  </fieldset>
+	 </form>
+	</section>
+	
+	<!--Hier bekommt man einen Überblick über aktuelle Kosten -->
+	<fieldset>
+	<table>
+		<caption>Kosten</caption>
+		<tbody>
+			<tr>
+				<th>Kontostand</th>
+				<th>Unterhaltskosten</th>
+				<th>neue Produktionsstätte</th>
+				<th>level-up Baulimit</th>
+				<th>level-up Produktionssgeschwindigkeit</th>
+				<th>level-up Rohstoffe herstellen</th>
+				<th>level-up Rohstoffverbrauch senken</th>
+				</tr>
+		</tbody>
+	</table>
+	</fieldset>
+	
+	
+	<!-- Hier bekommt man einen Überblick über seinen Rohstoffbestand-->
+	<fieldset>
+	<table>
+		<caption>Rohstofflager</caption>
+		<tbody>
+			<tr>
+				<th>Rohstoff</th>
+				<th>Anzahl</th>
+			</tr>
+		</tbody>
+	</table>
+	</fieldset>
+	
+	<!-- Zurück zum Hauptspielbildschirm -->
+	<input type=button value="Zurueck">
+</body>
+
+</html>
