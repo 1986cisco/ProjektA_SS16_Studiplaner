@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+
+	<head>
+		<meta charset="utf-8">
+	</head>
+	
+	<body>
+		<h1>Era of Inventions</h1>
+		<!-- <img Hier das Hintergrundbild einfügen /> -->
+		
+		<h2>Spielerhandel</h2>
+		
+		<!--Hier kann man ein Handelsangebot erstellen, dass man anderen Spieelrn anbietet -->
+		<section>
+		<form>
+		<fieldset>
+		<table>
+			<legend>Stellen Sie ein Handelsangebot zusammen
+			<tr>
+					<th>Rohstoff</th>
+					<th>Menge</th>
+				</tr>
+				<tr>
+					<th></th>
+					<th>
+					 <input type=number> 
+					</th>
+		</table>
+		<br>
+		<label for=Geld>Geld: </label>
+		<input type=number name=Geld>
+		<br>
+		<input type=submit name=Rohstoffmarkt>
+		</fieldset>
+		</form>
+		</section>
+		
+		<br>
+		
+		<!-- Tabelle über den eigenen Rohstoffbestand -->
+		<fieldset>
+		<table>
+		<legend>Rohstoffe</legend>
+			<tbody>
+				<tr>
+					<th>Rohstoff</th>
+					<th>auf Lager</th>
+				</tr>
+			</tbody>
+		</table>
+		</fieldset>
+		
+		<!-- Hier kann man anderen Spielern anbieten für sie zu forschen -->
+		<section>
+		<form>
+			<fieldset>
+			<legend>Forschung anbieten</legend>
+			<label for=SpielerF>Spieler</label>
+			<select name=SpielerF>
+			</select>
+			<label for=Forschung>Forschung</label>
+			<select name=Forschung>
+			</select>
+			<input type=submit name=ForschungAnbieten>
+			</fieldset>
+		</form>
+		</section>
+		<br>
+		
+		<!-- Hier kann man anderen Spielern anbieten für sie zu produzieren -->
+		<section>
+		<form>
+			<fieldset>
+			<legend>Produktion anbieten</legend>
+			<label for=SpielerF>Spieler</label>
+			<select name=SpielerF>
+			</select>
+			<label for=Forschung>Produktion</label>
+			<select name=Forschung>
+			</select>
+			<input type=submit name=ProduktionAnbieten>
+			</fieldset>
+		</form>
+		</section>
+		<br>
+		
+		<!-- Einen Handel annehmen oder ablehnen -->
+		<input type=button value="Handel annehmen">
+		<input type=button value="Handel ablehnen">
+		
+	</body>
+
+</html>
