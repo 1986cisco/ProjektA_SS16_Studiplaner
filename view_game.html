@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<title>Hauptspielbildschirm</title>
+</head>
+	
+<body>
+	<h1>Era of Inventions</h1>
+	<!-- <img Hier das Hintergrundbild einfügen /> -->
+	
+	<!-- Über diese Buttons kann man das Spiel speichern, zurück zum Startmemnü kommen, sich ausloggen und die Runde beenden -->
+	<fieldset>
+		<input type=button value="Speichern">
+		<input type=button value="Startmenue">
+		<input type=button value="Logout">
+		<input type=button value="Runde Beenden">
+	</fieldset>
+	
+	<!-- Tabelle Punkteübersicht aller Spieler -->
+	<fieldset>
+		<table>
+			<caption>Punkte</caption>
+			<tbody>
+				<tr>
+					<th>Spielername</th>
+					<th>Pkt.</th>
+				</tr>
+			</tbody>
+		</table>
+	</fieldset>
+	
+	<!-- Tabelle Finanzübersicht -->
+	<fieldset>
+		<table>
+		<caption>Finanzen</caption>
+			<tbody>
+				<tr>
+					<th>Kontostand</th>
+					<th>Einnahmen</th>
+					<th>Ausgaben</th>
+					<th>Gewinn</th>
+				</tr>
+			</tbody>
+		</table>
+	</fieldset>
+	
+	<!-- Rundeninfo -->
+	<fieldset>
+	<p>Spieler {echo} hat {echo} erforscht</p>
+	<p>Spieler {echo} ist am Zug</p>
+	<p>Runde {echo}/{echo}</p>
+	</fieldset>
+	
+	<!-- Führt zu den Hauptspielaktionsmöglichkeiten -->
+	<fieldset>
+		<input type=button value="Forschung">
+		<input type=button value="Produktion">
+		<input type=button value="Rohstoffmarkt">
+		<input type=button value="Schwarzmarkt">
+		<input type=button value="Spielerhandel">
+	</fieldset>
+</body>
+
+</html>
