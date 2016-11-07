@@ -18,3 +18,12 @@
 </body>
 
 </html>
+
+<!--
+===Feedback Turing1887(Dein bro Timbo und so)===
+Also wenn du die <input> Elemente nur hast um auf eine andere Seite zu gelangen, solltest du vielleicht lieber <a> als Links benutzen.
+Denn <input> wird eigentlich benutzt um in einem Formular validiert zu werden :) dann kannst du mit <a href="deineSeiteHier.php"> einfach zu der Seite kommen. 
+
+
+
+-->
