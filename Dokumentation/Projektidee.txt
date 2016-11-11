@@ -232,7 +232,7 @@ Wertung 2: Projektbeschreibung: gesamt: 3 / 10
 Leider keine Änderungen seit letztem Feedback.
 
 ===================================
-=== Feedback Alpers, 2016-06-23 ===
+=== Feedback Alpers, 2016-07-22 === (Datum korrigiert)
 ===================================
 
 == I ==
@@ -285,7 +285,7 @@ Wertung 2: Projektbeschreibung: gesamt: 3 / 10
 (Bitte beachten Sie, dass das die Wertung zum aktuellen Zeitpunkt und keine abschließende Wertung Ihrer Beschreibung ist.)
 
 ===================================
-=== Feedback Alpers, 2016-06-23 ===
+=== Feedback Alpers, 2016-09-12 === (Datum korrigiert)
 ===================================
 
 Gut, damit haben Sie die zentralen Aspekte des Spiels knapp zusammen gefasst.
@@ -301,3 +301,41 @@ Wertung 2: Projektbeschreibung: gesamt: 5 / 10
 - Designaspekte: 0 
 - Voraussetzung bekannten Wissens: 0 
 (Bitte beachten Sie, dass das die Wertung zum aktuellen Zeitpunkt und keine abschließende Wertung Ihrer Beschreibung ist.)
+
+===================================
+=== Feedback Alpers, 2016-11-11 ===
+===================================
+
+Hier ein Hinweis an alle Studierenden, die dieses Projekt sehen und sich fragen, warum ich denn hier nicht bemängle, dass (a) Abläufe und Inhalte vermischt sind und warum ich (b) die langen Texte nicht bemängle:
+
+ad a) Es gibt für jeden Inhalt einen klar als solchen erkennbaren Punkt. (Z.B. ----Forschungsstätte---- / ----Produktionsstätte---- / usw.) Also ist klar erkennbar, was in der Struktur umzusetzen ist. Effektiv handelt es sich zumeist um Gruppen/Microservices.
+ad b) Es ist zwar nicht so schön, dass bei den einzelnen Punkten, die die Abläufe im Spiel beschreiben ein Zeilenumbruch fehlt, aber dafür ist jeder Satz sehr knapp und klar formuliert und beschreibt exakt einen für sich umsetzbaren Aspekt des Spiels. Durch die Verwendung von ---- sind die Inhalte erkennbar von den Abläufen unterschieden und damit sind die formalen Anforderungen in dieser Hinsicht ausreichend erfüllt.
+
+=== I.) Formales
+
+== I.1.) Es wäre schön, wenn Sie jeweils noch notieren würden, was bereits umgesetzt wurde, bzw. wie weit die Umsetzung ist. (In den "Aufgabenstellungen" im EMIL-Lernraum habe ich dafür eine kleine Vorgabe erstellt.)
+
+=== II.) Inhalte
+
+Wie gehabt.
+
+=== III.) Verteilte Anwendung
+
+Darauf gehen Sie nicht explizit ein, aber zumindest bietet die Beschreibung die Möglichkeit beliebig viele Spieler über ein Netzwerk am Spiel teilnehmen zu lassen. Bitte denken Sie noch an Log-In und Registrierung, die für die Umsetzung nötig sind.
+
+=== IV.) Adaptive Anwendung.
+
+Die Punkte 1. - 3. und 5. sind gute Ansätze für eine Strategie eines computergesteuerten Gegners, aber nur 4. geht in die geforderte Richtung, wenn es um Adaption des individuellen Nutzerverhaltens geht.
+
+=================================================
+=== Wertung 2: Projektentwurf: gesamt: 7 / 10 ===
+=================================================
+- Knappe und klare Stichpunkte 0 bis 2 Pk.: 2
+- Umfang der eigentlichen Anwendung 0 bis 3 Pk.: 3 
+- Aspekte verteilter Anwendungen 0 bis 3 Pk.: 1 
+- Aspekte adaptiver Anwendungen 0 bis 2 Pk.: 1 
+=== (Malus beim Projektentwurf) ===
+- Werbeslogans u.ä. bis zu 3 Pk. Abzug: 0 
+- Design- oder Layoutvorgaben bis zu 5 Pk. Abzug: 0 
+- Voraussetzung bekannten Wissens bis zu 5 Pk. Abzug: 0 
+(Dies ist keine abschließende Wertung.)

@@ -26,3 +26,25 @@
 </body>
 
 </html>
+
+<!--
+===================================
+=== Feedback Alpers, 2016-11-11 ===
+===================================
+
+Zum Vergleich Ihre Definition aus der strukt.html:
+
+X. Finanztabelle
+198 - Tabelle/Finanzen
+199 - Titel Tabelle/Finanzen
+200 - Spalte Text/Kontostand
+201 - Spalte Text/Einnahmen
+202 - Spalte Text/Ausgaben
+203 - Spalte Text/Gewinn
+
+== a) Wie bei den übrigen Gruppen: Gruppe, nicht HTML-Dokument
+
+== b) Der HTML-Teil ist ansonsten richtig umgesetzt.
+
+0 Pk. (HTML-Dokument, keine Gruppe)
+-->

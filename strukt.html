@@ -797,3 +797,131 @@ Ich würde dem vielleicht noch Hintergrundmusik hinzufügen. Sonst fällt mir ke
 Sie haben eine klare Vorstellung von ihrer Idee und das haben sie gut umgesetzt. Eine gute und ausführliche Strukturierung. Kann mich den 
 anderen Feedbacks nur anschließen.
 -->
+
+<!--
+===================================
+=== Feedback Alpers, 2016-11-11 ===
+===================================
+
+=== I.) Strukturelle Elemente
+
+== II.1) Bezeichnungen
+
+Die Reduzierung haben Sie gut durchgeführt. Auch die Bezeichnung der strukturellen Elemente ist weitgehend sehr gut; Sie haben zwar nicht immer die Bezeichnungen verwendet, die wir auch in HTML verwenden, aber sie haben Bezeichnungen verwendet, die klarstellen, um welche Art von strukturellem Element es sich handelt.
+
+== II.2.) Texte sind keine strukturellen Elemente
+
+134 - Text/Spieler xy ist am Zug   
+135 - Text/Spieler xy hat gewonnen
+135 - Text/Bisherige Höchstpunktzahl des Spielers
+136 - Text/Patent xy erfolgreich erforscht und verkauft
+
+Bei diesen (und ggf. einigen anderen) Elementen kann es sich z.B. um Absätzen handeln oder um Zellen von Tabellen, aber Texte selbst sind keine strukturellen Elemente. Unabhängig davon macht es natürlich Sinn, bei den entsprechenden strukturellen Elementen, in denen diese Texte eingeblendet werden, anzugeben, dass es sich um eben diese Texte handelt. (Z.B. durch einen kurzen Kommentar.)
+
+================================================================
+=== Wertung 3: Ausarbeitung der strukt. Elem. gesamt: 8 / 10 ===
+================================================================
+- Knappe Form 0 bis 3 Pk.: 3 
+- Für je 5 unterschiedl. strukt. Elem (keine Gruppierungen) 1 Pk., 0 bis 7 Pk.: 5 
+=== (Malus bei strukt. Elem.) ===
+- Vermischung strukt. Elem., Gruppierung, Abläufe usw. bis zu 5 Pk. Abzug: 
+(Dies ist keine abschließende Wertung.)
+
+=== II.) Gruppen 
+
+== II.1.) Umfang
+
+Viele sehr sinnvolle Gruppen. Sie erhalten hier 3 Bonuspunkte für den Umfang.
+
+== II.2.) Hinweis bezüglich Laden und Speichern
+
+Behalten Sie bitte im Hinterkopf, dass es nicht nötig ist, explizit zu speichern: Sie können bei der Programmierung jede Spielrunde automatisch speichern lassen (durch Speicherung der geänderten Werte), sodass Spieler einzig die Möglichkeit benötigen, frühere Partien, bzw. einen beliebigen früheren Stand einer Partie zu laden.
+
+=======================================
+=== Wertung 4: Microservices: 5 (+3 Bonus) / 5 ===
+=======================================
+- für jeden für die Kernanwendung sinnvollen Microservice 1 Pk.: 5 + 3 Bonus
+=== (Malus bei strukt. Elem.) ===
+- Wenn Micrservices vergessen wurden, die für verteilte adaptive Anwendungen eine Voraussetzung sind, je 1 Pk. Abzug:
+(Dies ist keine abschließende Wertung.)
+
+=== III.) Ansichten
+
+== III.1.) Bitte Ansichten sinnvoll erstellen
+
+Es ist verlockend, Ansichten wie für Smartphones zu erstellen, bei denen häufig eine Gruppe/ein Microservice gleichbedeutend mit einer Ansicht ist. Sie haben zwar fast immer mehrere Gruppen zu einer Ansicht verbunden, aber hier zum Teil nicht sinnvoll unterteilt. Bsp.:
+
+----------
+view_index
+----------
+I. LogIn
+II. Registrierung
+
+----------------------
+view_spielvorbereitung
+----------------------
+IV. SpielErstellen
+V. SpielLaden
+VI. Spielsuche
+
+----------
+view_lobby
+----------
+VII. Lobby
+
+Natürlich macht es wenig Sinn, wenn Spieler schon Spiele auswählen können, bevor Sie eingeloggt sind, aber dafür haben wir PHP, womit wir eben die entsprechenden Menüeinträge deaktivieren können. Es macht im Gegenteil dazu Sinn alle Gruppen, die Sie hier in drei Ansichten aufgeteilt haben in einer zusammenzuführen.
+
+Im Gegenteil fällt an dieser Stelle sogar prompt eine Gruppe auf, die noch ergänzt werden sollte: Die Ansicht des Spielerprofils mit Link zur Konfiguration. Die ließe sich auch sinnvoll in anderen Ansichten einbinden.
+
+== III.2.) Spielvorbereitung im Kern Teil mehrerer anderer sinnvoller Ansichten.
+
+Es spricht ja nichts dagegen, dass ein Spieler, der bereits eingeloggt ist zu einer anderen Partie wechselt. Also wäre es sinnvoll, das entsprechende Menü durchgehend eingeblendet zu lassen.
+
+== III.3.) Zusammenfassung
+
+Sie haben weitgehend sinnvolle Ansichten entwickelt, aber Sie haben hier im Grunde noch keine Gruppen an mehreren Stellen eingebunden, wenn das Sinn machen würde. Überlegen Sie sich an dieser Stelle einmal analog zu meiner Anmerkung bezüglich des "Spielerprofils" (das aber keine Forderung ist), was für Gruppen noch denkbaren wären, die ebenfalls in mehreren Ansichten nutzbar wären.
+
+=========================================
+=== Wertung 5: Ansichten/Views: 5 / 5 ===
+=========================================
+- für jede sinnvolle Ansicht 1 Pk.: 5 
+(Dies ist keine abschließende Wertung.)
+
+Wichtig: Sie haben die Ansichten jeweils unter view_name. ... gespeichert. Das Präfix view_ sollte nie Teil des Dateinamens werden.
+
+=== IV.) Umsetzung in HTML
+
+Wichtig: Sie sollen zunächst nur die Gruppen/Microservices als HTML-Datei umsetzen und in den HTML-Dokumenten, die die Ansichten umsetzen per include() die Gruppen einfügen. Das zu korrigieren klingt nach mehr Arbeit als es ist: Alles, was Sie dazu tun müssen ist, bei jeder Ansicht zu prüfen, was davon in welcher Gruppe umgesetzt werden soll. Die entsprechenden HTML-Zeilen schneiden Sie dann aus und fügen sie in einer Datei im Verzeichnis Gruppen_de ein. Anschließend fügen Sie dann die Gruppen_de-Datei in Ihrer Ansicht ein. Spätere Korrekturen an einer Gruppe brauchen Sie also nur noch jeweils einmal zu machen und nicht für jede Ansicht, in der die Gruppe vorkommt.
+
+== IV.1.) Fehlende Gruppen in Gruppen_de
+
+I. LogIn
+II. Registrierung
+III. Startmenü
+IV. SpielErstellen
+V. SpielLaden
+VI. Spielsuche
+VII. Lobby
+X. Finanztabelle
+XII. Forschungsstätte
+XIV. ForschungLvlUp
+XV. Forschungskosten
+XVI. Produktionssstätte
+XVII. ProduktionLvlUp
+XVIII. Produktionskosten
+XIX. Rohstofflager
+XX. Rohstoffmarkt
+XXI. AktionskarteKaufen
+XXII. AktionskarteAnwenden
+XXIII. AktionskartenÜbersicht
+XXIV. AngebotErstellen
+XXV. ForschungAnbieten
+XXVI. ProduktionAnbieten
+XXVII. Spezialpunkte
+XXVIII. Handelsangebot
+
+=== V.) Zusammenfassung
+
+Bis auf ein paar formale Fehler haben Sie mehr als genug geleistet, um den Leistungsnachweis zu erhalten. Sie sollten also im Stande sein, innerhalb von knapp 30 Minuten mehr als genug zu tun, um die letzten nötigen Punkte zu erhalten.
+
+-->
